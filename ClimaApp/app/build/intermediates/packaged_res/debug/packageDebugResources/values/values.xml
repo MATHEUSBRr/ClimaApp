@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_500">#6200EE</color>
+    <color name="purple_700">#3700B3</color>
+    <color name="teal_200">#03DAC5</color>
+    <color name="white">#FFFFFF</color>
+    <string name="api_key">AgentWeather2024_a8f3b9c1d7e2f5g6h4i9j0k1l2m3n4o5p6</string>
+    <string name="app_name">ClimaApp</string>
+    <string name="connect_error">Erro de conexão</string>
+    <string name="high_temp">High: %s°C</string>
+    <string name="hint_text">Enter city (e.g., Passos,MG,BR)</string>
+    <string name="humidity">Humidity: %s</string>
+    <string name="invalid_url">Cidade inválida</string>
+    <string name="low_temp">Low: %s°C</string>
+    <string name="read_error">Erro ao ler dados</string>
+    <string name="weather_condition_image">Weather icon</string>
+    <string name="web_service_url">http://agent-weathermap-env-env.eba-6pzgqekp.us-east-2.elasticbeanstalk.com/api/weather</string>
+    <style name="Theme.ClimaApp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorAccent">@color/teal_200</item>
+    </style>
+</resources>
